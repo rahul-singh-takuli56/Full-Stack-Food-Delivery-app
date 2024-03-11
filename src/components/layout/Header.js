@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <>
             <header className="flex items-center justify-between">
-                <Link href="" className="text-primary font-semibold text-2xl">ST PIZZA</Link>
+                <Link href="" className="text-primary font-semibold text-2xl">RST PIZZA</Link>
                 <nav className="flex gap-10 text-gray-500 font-semibold items-center">
                     <Link href={''}>Home</Link>
                     <Link href={''}>Menu</Link>

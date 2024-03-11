@@ -4,9 +4,9 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className='hero'>
+        <section className='hero w-full'>
             <div className='py-12'>
-                <h1 className='text-4xl font-semibold'>Everything is better with a Pizza</h1>
+                <h1 className='text-4xl font-bold '>Everything <br />is better with <br /> <span className='text-8xl text-orange-600 '>Pizza</span></h1>
                 <p className='my-4 text-gray-500'>Pizza is the missing piece that makes every day complete, a simple yet delicious joy in life</p>
 
                 <div className='flex gap-4 '>
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
 
             <div className='relative'>
-                <Image src={'/pizza.png'} layout={'fill'} objectFit={'contain'} alt={'pizza image'} />
+                <Image src={'/pizza.png'} width={380} height={10} alt={'pizza image'} />
             </div>
         </section>
     );
